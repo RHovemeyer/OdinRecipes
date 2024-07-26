@@ -15,3 +15,10 @@ I am also going to use some code learned on https://www.w3schools.com/ to create
 Photo Credits
 Grill Cheese: Polina Tankilevitch Instagram ptankilevitch
 
+Veggie Stir Fry: Ella Olsson
+https://www.pexels.com/@ella-olsson-572949/
+
+Crock Pot Beef: makafood
+https://www.pexels.com/@makafood-82669418/
+
+Main Page: Karolina Kaboompics
