@@ -1,0 +1,85 @@
+.title{ 
+    background-color: white;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 25px;
+
+}
+
+a:link {
+  text-decoration: none;
+  background-color: white;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+a:visited {
+  text-decoration: none;
+  background-color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: grey;
+}
+
+a:active {
+  text-decoration: underline;
+  background-color: grey
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #85e085;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  background-image: url("images/pexels-karolina-grabowska-4198183.jpg");
+
+}
+
+.nav {
+    list-style-type:none;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height:1000px;
+  
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  height: 1000px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+.recipe {
+    text-align:center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
