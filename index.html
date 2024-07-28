@@ -4,119 +4,35 @@
 <title>Odin's Recipes</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-h1{ 
-    background-color: white;
-  padding: 14px 25px;
-  text-align: center;
-  display: inline-block;
-  border-radius: 25px;
-
-}
-
-a:link {
-  text-decoration: none;
-  background-color: white;
-  padding: 14px 25px;
-  text-align: center;
-  display: inline-block;
-  border-radius: 10px;
-}
-
-a:visited {
-  text-decoration: none;
-  background-color: white;
-}
-
-a:hover {
-  text-decoration: underline;
-  background-color: grey;
-}
-
-a:active {
-  text-decoration: underline;
-  background-color: grey
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-.header {
-  background-color: #85e085;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  background-image: url("images/pexels-karolina-grabowska-4198183.jpg");
-
-}
-
-ul {
-    list-style-type:none;
-}
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  height:1000px;
-  
-}
-
-/* Left and right column */
-.column.side {
-  width: 25%;
-  height: 1000px;
-}
-
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="header">
-  <h1>Odin's Recipes</h1>
+  <h1 class="title">Odin's Recipes</h1>
 </div>
 
 <div class="row">
 
-<!-- Column for Links to Recipes --!>
+<!-- Column for Links to Recipes -->
 
-  <div class="column side" style="background-color:#85e085;"> <ul>
+  <div class="column side" style="background-color:#85e085;"> <ul class="nav">
         <li><a href="recipes/crockpotbeef.html" target="iframe" >Crock Pot Beef</a></li> <br><br>
         <li><a href="recipes/grillcheese.html" target="iframe">Grilled Cheese</a></li> <br><br>
         <li><a href="recipes/veggiestirfry.html" target="iframe" > Veggie Stir Fry</a></li> <br><br>
     </ul></div>
     
-  <!-- Column to hold an iframe for recipes. --!>  
+  <!-- Column to hold an iframe for recipes. -->  
     
   <div class="column middle" style="background-color:white;">
   
-  <iframe src="recipes/begin.html" name="iframe" title="Iframe Example" height ="100%" width="100%" style= "border:none"> </iframe>
+  <iframe src="recipes/begin.html" name="iframe" title="Iframe" height ="100%" width="100%" style= "border:none"> </iframe>
   
   
   </div>
   
   
-  <!-- Column to hold picture. --!>
+  <!-- Column to hold picture. -->
   
   <div class="column side" style="background-color:#85e085;">
   <img src="images/pexels-karolina-grabowska-4198183.jpg" width= 100% alt="Chopped Onions">
