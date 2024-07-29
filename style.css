@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+/*Formatting the title*/
+
 .title{ 
     background-color: white;
   padding: 14px 25px;
@@ -7,6 +19,7 @@
 
 }
 
+/* Formatting the links*/
 a:link {
   text-decoration: none;
   background-color: white;
@@ -32,6 +45,22 @@ a:active {
 }
 
 
+.nav {
+  list-style-type:none;
+}
+
+.nav li {
+display:inline-block;
+margin: 10px;
+
+}
+
+
+
+
+
+
+/* Whole page things*/
 * {
   box-sizing: border-box;
 }
@@ -50,10 +79,11 @@ body {
 
 }
 
-.nav {
-    list-style-type:none;
-}
-/* Create three unequal columns that floats next to each other */
+
+
+
+
+/* Create three unequal columns next to each other */
 .column {
   float: left;
   padding: 10px;
@@ -65,21 +95,20 @@ body {
 .column.side {
   width: 25%;
   height: 1000px;
+  background-color:#85e085;"
 }
 
 /* Middle column */
 .column.middle {
   width: 50%;
+  background-color: #ffffff;
 }
 
+
+/* To center a few pieces of the recipe page */
 .recipe {
     text-align:center;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 
